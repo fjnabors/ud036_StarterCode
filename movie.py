@@ -2,6 +2,11 @@
 import webbrowser
 
 class Movie():
+
+    """This class defines a movie object that contains its title, storyline,
+    poster image, and youtube trailer. The method show_trailer() plays the
+    youtube trailer for the movie in the default web browser. """
+
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline

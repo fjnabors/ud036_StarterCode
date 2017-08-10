@@ -1,6 +1,10 @@
 import movie
 import fresh_tomatoes
 
+
+'''6 of my favorite movies have been instantiated below  as Movie objects, with their
+titles, storylines, poster images, and youtube trailers'''
+
 lotr1 = movie.Movie("Lord of the Rings: The Fellowship of the Ring",
                     "In a small village in the Shire, a young Hobbit named Frodo (Elijah Wood) has been entrusted with an ancient Ring.",
                      "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29_theatrical_poster.jpg",
@@ -32,7 +36,8 @@ the_dark_knight = movie.Movie("The Dark Knight",
                         "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
                         "https://www.youtube.com/watch?v=r94bLJi3P2c")
 
+'''these movies are added to a list and displayed on a web page with the
+open_movies_page method from fresh_tomatoes.py'''
+
 movies_list = [lotr1, lotr2, lotr3, interstellar, inception, the_dark_knight]
-
-
 fresh_tomatoes.open_movies_page(movies_list)
